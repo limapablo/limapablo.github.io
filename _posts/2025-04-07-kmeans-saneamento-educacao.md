@@ -24,7 +24,8 @@ The project code was developed in **Python**, using libraries like **Pandas** fo
 
 Here is the map showing the results of the clustering, where municipalities are grouped based on their sanitation and education indicators:
 
-![Clusters Map](https://github.com/limapablo/kmeans-saneamento-educacao/blob/main/imagens/mapa_clusters.png?raw=true)
+<img src="https://github.com/limapablo/kmeans-saneamento-educacao/blob/main/imagens/mapa_clusters.png?raw=true" alt="Clusters Map" width="800" />
+
 
 ## Expected Results
 

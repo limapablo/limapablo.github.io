@@ -5,6 +5,7 @@ description: >-
   Cientista de Dados em Formação
 baseurl: ""
 url: "https://limapablo.com"
+theme: "minimal-mistakes-jekyll"
 github_username: limapablo
 markdown: kramdown
 theme: minimal

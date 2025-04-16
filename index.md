@@ -1,14 +1,26 @@
 ---
 layout: home
 title: Pablo Lima
-redirect_from: "https://limapablo.github.io/"
-subtitle: Data Science Enthusiast | Based in Rio de Janeiro, Brazil
 ---
 
-I hold a Bachelor's degree in Business Administration from the Federal Rural University of Rio de Janeiro (UFRRJ) and an MBA in Data Science & Analytics from the University of São Paulo (USP/ESALQ).
+# Welcome to my personal academic website
 
-I’m passionate about data science applied to human development, public policy, education, sanitation, and data visualization.
+I am a Data Science enthusiast based in Rio de Janeiro, Brazil, with a strong interest in using data-driven approaches to solve social issues, such as education and public policy.
 
-Currently, I’m working on projects involving municipal clustering using unsupervised machine learning techniques.
+### Academic Background
 
-[GitHub](https://github.com/limapablo) | [LinkedIn](https://www.linkedin.com/in/limapablo/) | [Lattes](http://lattes.cnpq.br/3015923614657329) | [Email](mailto:lima.pablohs@gmail.com)
+- **BBA** from UFRRJ (2022)
+- **MBA in Data Science & Analytics** from USP/ESALQ (2025)
+
+### Featured Project
+
+[Clustering Brazilian Municipalities using K-Means](https://github.com/limapablo/kmeans-saneamento-educacao)  
+This project applies unsupervised learning to group Brazilian municipalities based on social and economic indicators. It focuses on areas such as sanitation and education, aiming to inform public policy.
+
+---
+
+### Contact
+
+- [Lattes CV](http://lattes.cnpq.br/3015923614657329)
+- [LinkedIn](https://www.linkedin.com/in/limapablo/)
+- 📧 Email: lima.pablohs@gmail.com

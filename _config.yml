@@ -5,10 +5,10 @@ description: >-
   Cientista de Dados em Formação
 baseurl: ""
 url: "https://limapablo.com"
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 github_username: limapablo
 markdown: kramdown
-theme: minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache

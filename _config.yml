@@ -1,0 +1,12 @@
+title: Pablo Lima
+email: lima.pablohs@gmail.com
+description: >-
+  Cientista de Dados em Formação
+baseurl: ""
+url: "https://limapablo.github.io"
+github_username: limapablo
+markdown: kramdown
+theme: minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

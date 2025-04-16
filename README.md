@@ -18,4 +18,3 @@ The website was built using [Jekyll](https://jekyllrb.com/) and is hosted with *
 - [LinkedIn](https://www.linkedin.com/in/limapablo/)
 - [Lattes CV](http://lattes.cnpq.br/3015923614657329)
 - 📧 lima.pablohs@gmail.com
-

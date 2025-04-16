@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Pablo Lima
+redirect_from: "https://limapablo.github.io/"
 subtitle: Data Science Enthusiast | Based in Rio de Janeiro, Brazil
 ---
 

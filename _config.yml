@@ -1,9 +1,10 @@
 title: Pablo Lima
+description: Personal Academic Site
 email: lima.pablohs@gmail.com
 description: >-
   Cientista de Dados em Formação
 baseurl: ""
-url: "https://limapablo.github.io"
+url: "https://limapablo.com"
 github_username: limapablo
 markdown: kramdown
 theme: minimal

@@ -13,29 +13,17 @@ classes: wide
     <p class="portfolio-lead">I work across analytics, business intelligence and applied data science, using Python, SQL and Power BI to move from raw data to practical, decision-ready solutions.</p>
     <div class="portfolio-actions" aria-label="Primary links">
       <a class="btn btn--primary" href="/projects/">View selected work</a>
-      <a class="btn btn--quiet" href="/cv/">CV</a>
+      <a class="btn btn--quiet" href="/resume/">Resume</a>
       <a class="btn btn--quiet" href="/contact/">Contact</a>
       <a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
     </div>
   </div>
 
   <dl class="hero-summary" aria-label="Professional summary">
-    <div class="summary-row">
-      <dt class="summary-label">Focus</dt>
-      <dd class="summary-value">Analytics · BI · Automation</dd>
-    </div>
-    <div class="summary-row">
-      <dt class="summary-label">Core stack</dt>
-      <dd class="summary-value">Python · SQL · Power BI</dd>
-    </div>
-    <div class="summary-row">
-      <dt class="summary-label">Approach</dt>
-      <dd class="summary-value">Business context → data → decision</dd>
-    </div>
-    <div class="summary-row">
-      <dt class="summary-label">Research</dt>
-      <dd class="summary-value">Published applied data science work</dd>
-    </div>
+    <div class="summary-row"><dt class="summary-label">Focus</dt><dd class="summary-value">Analytics · BI · Automation</dd></div>
+    <div class="summary-row"><dt class="summary-label">Core stack</dt><dd class="summary-value">Python · SQL · Power BI</dd></div>
+    <div class="summary-row"><dt class="summary-label">Approach</dt><dd class="summary-value">Business context → data → decision</dd></div>
+    <div class="summary-row"><dt class="summary-label">Research</dt><dd class="summary-value">Published applied data science work</dd></div>
   </dl>
 </section>
 
@@ -57,9 +45,9 @@ classes: wide
     <article class="project-card">
       <div class="project-card__meta">02 · Research · Published</div>
       <h3>Municipal Sanitation & Education Clustering</h3>
-      <p>K-Means and geospatial analysis of Brazilian municipalities, developed as my MBA capstone and later published as a scientific article.</p>
+      <p>Published research across 5,556 Brazilian municipalities using K-Means, correlation analysis and geospatial interpretation to examine sanitation, education and regional inequality.</p>
       <div class="project-card__tags" aria-label="Technologies"><span>Python</span><span>Scikit-learn</span><span>QGIS</span></div>
-      <div class="project-card__links"><a href="https://github.com/limapablo/kmeans-saneamento-educacao">Repository ↗</a><a href="https://doi.org/10.29327/23189258.1068040">Publication ↗</a></div>
+      <div class="project-card__links"><a href="/projects/sanitation-education-clustering/">Read case study →</a><a href="https://doi.org/10.29327/23189258.1068040">Publication ↗</a></div>
     </article>
 
     <article class="project-card">
@@ -102,7 +90,7 @@ classes: wide
     <div class="background-item"><span class="background-label">Undergraduate education</span><h3>Bachelor's in Business Administration</h3><p>UFRRJ</p></div>
   </div>
   <div class="portfolio-actions portfolio-actions--secondary">
-    <a class="btn btn--quiet" href="/about/">About</a><a class="btn btn--quiet" href="/cv/">CV</a><a class="btn btn--quiet" href="https://orcid.org/0009-0007-6456-6993">ORCID ↗</a><a class="btn btn--quiet" href="https://lattes.cnpq.br/3015923614657329">Lattes ↗</a>
+    <a class="btn btn--quiet" href="/about/">About</a><a class="btn btn--quiet" href="/resume/">Resume</a><a class="btn btn--quiet" href="https://orcid.org/0009-0007-6456-6993">ORCID ↗</a><a class="btn btn--quiet" href="https://lattes.cnpq.br/3015923614657329">Lattes ↗</a>
   </div>
 </section>
 

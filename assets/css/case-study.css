@@ -1,0 +1,241 @@
+.case-hero {
+  max-width: 900px;
+  padding: clamp(3.8rem, 8vh, 6rem) 0 2.8rem;
+  border-bottom: 1px solid var(--final-border);
+}
+
+.case-hero h1 {
+  margin: 0;
+  max-width: 860px;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+
+.case-lead {
+  max-width: 760px !important;
+  margin: 1.1rem 0 0 !important;
+  color: var(--final-muted);
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  border-bottom: 1px solid var(--final-border);
+}
+
+.case-meta > div {
+  padding: 1.15rem 1rem 1.15rem 0;
+}
+
+.case-meta > div + div {
+  padding-left: 1rem;
+  border-left: 1px solid var(--final-border);
+}
+
+.case-meta span,
+.case-section__label,
+.cluster-id {
+  display: block;
+  color: var(--final-faint);
+  font-size: 0.66rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.case-meta strong {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--final-text);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  font-weight: 620;
+}
+
+.case-section {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: clamp(1.8rem, 5vw, 4rem);
+  padding: 3.3rem 0;
+  border-bottom: 1px solid var(--final-border);
+}
+
+.case-section__label {
+  padding-top: 0.35rem;
+}
+
+.case-section__body {
+  max-width: 760px;
+}
+
+.case-section__body h2,
+.case-publication h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+
+.case-section__body > p,
+.case-publication > p {
+  max-width: 720px !important;
+  color: var(--final-muted);
+  font-size: 0.94rem;
+  line-height: 1.72;
+}
+
+.case-steps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.case-steps > div,
+.cluster-grid article {
+  padding: 1rem;
+  border: 1px solid var(--final-border);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.015);
+}
+
+.case-steps span {
+  color: var(--final-faint);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+}
+
+.case-steps h3 {
+  margin: 0.5rem 0 0.35rem;
+  font-size: 0.95rem;
+}
+
+.case-steps p,
+.cluster-grid p,
+.finding-list p {
+  margin: 0 !important;
+  color: var(--final-muted);
+  font-size: 0.84rem !important;
+  line-height: 1.62 !important;
+}
+
+.cluster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.cluster-grid strong {
+  display: block;
+  margin: 0.5rem 0 0.5rem;
+  font-size: 0.98rem;
+}
+
+.case-figure {
+  margin: 3.3rem 0;
+}
+
+.case-figure img {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  border: 1px solid var(--final-border);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.case-figure figcaption {
+  max-width: 760px;
+  margin-top: 0.8rem;
+  color: var(--final-faint);
+  font-size: 0.76rem;
+  line-height: 1.55;
+}
+
+.finding-list {
+  margin-top: 1.3rem;
+  border-top: 1px solid var(--final-border);
+}
+
+.finding-list > div {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 0.9rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--final-border);
+}
+
+.finding-list > div > span {
+  color: var(--final-faint);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.finding-list strong {
+  color: var(--final-text);
+}
+
+.case-publication {
+  max-width: 850px;
+  margin: 3.5rem 0 0;
+  padding: 2.4rem 0 0;
+}
+
+@media (max-width: 820px) {
+  .case-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .case-meta > div:nth-child(3) {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .case-section {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .cluster-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .case-hero {
+    padding-top: 2.8rem;
+  }
+
+  .case-hero h1 {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+  }
+
+  .case-meta,
+  .case-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .case-meta > div,
+  .case-meta > div + div,
+  .case-meta > div:nth-child(3) {
+    padding: 0.85rem 0;
+    border-left: 0;
+    border-bottom: 1px solid var(--final-border);
+  }
+
+  .case-meta > div:last-child {
+    border-bottom: 0;
+  }
+
+  .case-section {
+    padding: 2.5rem 0;
+  }
+}

@@ -33,9 +33,9 @@ author:
   bio: "Data & Analytics professional working across business intelligence, automation and applied data science."
   location: "Rio de Janeiro, Brazil"
   links:
-    - label: "Email"
+    - label: "Contact"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:lima.pablohs@gmail.com"
+      url: "/contact/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/limapablo/"
@@ -51,9 +51,9 @@ author:
 
 footer:
   links:
-    - label: "Email"
+    - label: "Contact"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:lima.pablohs@gmail.com"
+      url: "/contact/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/limapablo/"

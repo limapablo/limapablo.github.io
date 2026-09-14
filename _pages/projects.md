@@ -28,14 +28,14 @@ classes: wide
 <section class="project-detail">
 <div class="project-detail__index">02</div>
 <div class="project-detail__body">
-<p class="project-detail__meta">Research · Published</p>
+<p class="project-detail__meta">Research · Published · SIMEP 2025</p>
 <h2>Municipal Sanitation & Education Clustering</h2>
-<p>My MBA capstone at USP/ESALQ, focused on identifying patterns across Brazilian municipalities using sanitation and education indicators. The analysis combines unsupervised learning with geospatial interpretation and later evolved into a scientific publication.</p>
+<p>Published applied-data-science research across 5,556 Brazilian municipalities. The study uses K-Means, correlation analysis and geospatial interpretation to examine how sanitation, education, income and regional inequality appear together in municipal data.</p>
 <div class="project-detail__points">
-<span>Exploratory analysis</span><span>Feature scaling and clustering</span><span>Geospatial integration</span><span>Unsupervised-model interpretation</span><span>Academic communication</span>
+<span>5,556 municipalities</span><span>K-Means clustering</span><span>Silhouette & elbow analysis</span><span>Pearson correlation</span><span>Geospatial interpretation</span>
 </div>
-<p class="project-detail__stack">Python · Scikit-learn · K-Means · QGIS</p>
-<div class="research-links"><a href="https://github.com/limapablo/kmeans-saneamento-educacao">Repository ↗</a><a href="https://doi.org/10.29327/23189258.1068040">Publication ↗</a></div>
+<p class="project-detail__stack">Python · Scikit-learn · Pandas · K-Means · QGIS</p>
+<div class="research-links"><a class="project-detail__link" href="/projects/sanitation-education-clustering/">Read case study →</a><a href="https://github.com/limapablo/kmeans-saneamento-educacao">Repository ↗</a><a href="https://doi.org/10.29327/23189258.1068040">Publication ↗</a></div>
 </div>
 </section>
 

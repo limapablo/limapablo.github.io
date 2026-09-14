@@ -33,8 +33,9 @@ classes: wide
 
 <section class="content-section">
 <h2>Research</h2>
-<p>My MBA capstone at USP/ESALQ applied K-Means clustering and geospatial analysis to sanitation and education indicators across Brazilian municipalities. The project later evolved into a scientific article associated with SIMEP 2025.</p>
+<p>My MBA capstone at USP/ESALQ applied K-Means clustering and geospatial analysis to sanitation and education indicators across 5,556 Brazilian municipalities. The work later became a published scientific paper presented at SIMEP 2025.</p>
 <div class="research-links">
+<a href="/projects/sanitation-education-clustering/">Read the case study →</a>
 <a href="https://doi.org/10.29327/23189258.1068040">DOI ↗</a>
 <a href="https://orcid.org/0009-0007-6456-6993">ORCID ↗</a>
 <a href="https://lattes.cnpq.br/3015923614657329">Lattes ↗</a>
@@ -46,7 +47,7 @@ classes: wide
 <p>I am expanding my portfolio toward complete end-to-end analytics projects that combine Python, SQL, relational databases, Power BI and automation. The goal is to build deeper technical capability without losing the connection to business outcomes.</p>
 <div class="portfolio-actions portfolio-actions--secondary">
 <a class="btn btn--primary" href="/projects/">Selected work</a>
-<a class="btn btn--quiet" href="/cv/">CV</a>
+<a class="btn btn--quiet" href="/resume/">Resume</a>
 <a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
 </div>
 </section>

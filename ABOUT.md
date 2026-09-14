@@ -1,20 +1,23 @@
 # limapablo.github.io
 
-This is the personal academic website of **Pablo Lima**, a data science enthusiast based in Rio de Janeiro, Brazil.
+Personal portfolio website for **Pablo Lima**, focused on Data & Analytics, business intelligence, automation and applied data science.
 
-The website was built using [Jekyll](https://jekyllrb.com/) and is hosted with **GitHub Pages**. It contains information about my background, interests, and personal projects related to data science, machine learning, and public policy.
+The site is built with Jekyll and hosted on GitHub Pages, with a custom responsive design and a curated portfolio of applied projects.
 
-📍 Visit the live site: [https://limapablo.github.io](https://limapablo.github.io)
+Visit the live site: [https://limapablo.com](https://limapablo.com)
 
-## ✨ Highlights
+## Highlights
 
-- Background in Business Administration (UFRRJ)
-- MBA in Data Science & Analytics (USP/ESALQ)
-- Focus on data-driven approaches to social development
-- Open-source project on municipal clustering using K-Means
+- Data & Analytics portfolio with recruiter-focused UX
+- Projects spanning Python, SQL, Power BI, machine learning and automation
+- Published academic research with DOI and ORCID profile
+- Dedicated contact form integrated with the live site
+- Responsive layout for desktop, tablet and mobile
 
-## 📬 Contact
+## Contact
 
+- [Contact form](https://limapablo.com/contact/)
 - [LinkedIn](https://www.linkedin.com/in/limapablo/)
-- [Lattes CV](http://lattes.cnpq.br/3015923614657329)
-- 📧 lima.pablohs@gmail.com
+- [GitHub](https://github.com/limapablo)
+- [ORCID](https://orcid.org/0009-0007-6456-6993)
+- [Lattes CV](https://lattes.cnpq.br/3015923614657329)

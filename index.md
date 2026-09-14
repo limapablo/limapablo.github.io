@@ -1,7 +1,6 @@
 ---
 layout: single
 title: ""
-permalink: /
 author_profile: false
 classes: wide
 ---
@@ -20,31 +19,16 @@ classes: wide
   </div>
 
   <aside class="hero-summary" aria-label="Professional summary">
-    <div class="summary-row">
-      <span class="summary-label">Focus</span>
-      <span class="summary-value">Analytics · BI · Automation</span>
-    </div>
-    <div class="summary-row">
-      <span class="summary-label">Core stack</span>
-      <span class="summary-value">Python · SQL · Power BI</span>
-    </div>
-    <div class="summary-row">
-      <span class="summary-label">Approach</span>
-      <span class="summary-value">Business context → data → decision</span>
-    </div>
-    <div class="summary-row">
-      <span class="summary-label">Research</span>
-      <span class="summary-value">Published applied data science work</span>
-    </div>
+    <div class="summary-row"><span class="summary-label">Focus</span><span class="summary-value">Analytics · BI · Automation</span></div>
+    <div class="summary-row"><span class="summary-label">Core stack</span><span class="summary-value">Python · SQL · Power BI</span></div>
+    <div class="summary-row"><span class="summary-label">Approach</span><span class="summary-value">Business context → data → decision</span></div>
+    <div class="summary-row"><span class="summary-label">Research</span><span class="summary-value">Published applied data science work</span></div>
   </aside>
 </section>
 
 <section class="portfolio-section" aria-labelledby="work-title">
   <div class="section-heading">
-    <div>
-      <p class="section-kicker">Selected work</p>
-      <h2 id="work-title">Projects built around real analytical problems.</h2>
-    </div>
+    <div><p class="section-kicker">Selected work</p><h2 id="work-title">Projects built around real analytical problems.</h2></div>
     <p class="section-note">A small, curated set of projects showing end-to-end thinking rather than a long list of tutorials.</p>
   </div>
 
@@ -86,52 +70,26 @@ classes: wide
 </section>
 
 <section class="portfolio-section" aria-labelledby="capabilities-title">
-  <div class="section-heading section-heading--compact">
-    <div>
-      <p class="section-kicker">Capabilities</p>
-      <h2 id="capabilities-title">Technical execution with business context.</h2>
-    </div>
-  </div>
-
+  <div class="section-heading section-heading--compact"><div><p class="section-kicker">Capabilities</p><h2 id="capabilities-title">Technical execution with business context.</h2></div></div>
   <div class="capability-grid">
-    <div class="capability-item">
-      <span class="capability-number">01</span>
-      <h3>Analytics & BI</h3>
-      <p>Power BI, DAX, KPI design, dimensional thinking and executive-ready reporting.</p>
-    </div>
-    <div class="capability-item">
-      <span class="capability-number">02</span>
-      <h3>Python & SQL</h3>
-      <p>Data preparation, analytical modeling, automation and reusable transformation workflows.</p>
-    </div>
-    <div class="capability-item">
-      <span class="capability-number">03</span>
-      <h3>Applied Data Science</h3>
-      <p>Regression, clustering, model evaluation and documented analytical assumptions.</p>
-    </div>
+    <div class="capability-item"><span class="capability-number">01</span><h3>Analytics & BI</h3><p>Power BI, DAX, KPI design, dimensional thinking and executive-ready reporting.</p></div>
+    <div class="capability-item"><span class="capability-number">02</span><h3>Python & SQL</h3><p>Data preparation, analytical modeling, automation and reusable transformation workflows.</p></div>
+    <div class="capability-item"><span class="capability-number">03</span><h3>Applied Data Science</h3><p>Regression, clustering, model evaluation and documented analytical assumptions.</p></div>
   </div>
-
   <p class="stack-line">Python · SQL · PostgreSQL · Power BI · DAX · Pandas · Scikit-learn · XGBoost · n8n · Git · Linux</p>
 </section>
 
 <section class="portfolio-section background-section" aria-labelledby="background-title">
   <div class="section-heading">
-    <div>
-      <p class="section-kicker">Background</p>
-      <h2 id="background-title">Business first. Data as the operating layer.</h2>
-    </div>
+    <div><p class="section-kicker">Background</p><h2 id="background-title">Business first. Data as the operating layer.</h2></div>
     <p class="section-note">My background in Business Administration and Data Science shapes a practical approach: technical quality matters, but so does whether the work improves a decision or process.</p>
   </div>
-
   <div class="background-grid">
     <div class="background-item"><span class="background-label">Graduate education</span><h3>MBA in Data Science & Analytics</h3><p>USP/ESALQ</p></div>
     <div class="background-item"><span class="background-label">Undergraduate education</span><h3>Bachelor's in Business Administration</h3><p>UFRRJ</p></div>
   </div>
-
   <div class="portfolio-actions portfolio-actions--secondary">
-    <a class="btn btn--quiet" href="/about/">About</a>
-    <a class="btn btn--quiet" href="/cv/">CV</a>
-    <a class="btn btn--quiet" href="https://lattes.cnpq.br/3015923614657329">Lattes ↗</a>
+    <a class="btn btn--quiet" href="/about/">About</a><a class="btn btn--quiet" href="/cv/">CV</a><a class="btn btn--quiet" href="https://orcid.org/0009-0007-6456-6993">ORCID ↗</a><a class="btn btn--quiet" href="https://lattes.cnpq.br/3015923614657329">Lattes ↗</a>
   </div>
 </section>
 
@@ -139,8 +97,5 @@ classes: wide
   <p class="section-kicker">Contact</p>
   <h2 id="contact-title">Interested in analytics, BI, automation or data work?</h2>
   <p>Find me on LinkedIn or explore the code and documentation behind the projects on GitHub.</p>
-  <div class="portfolio-actions">
-    <a class="btn btn--primary" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
-    <a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a>
-  </div>
+  <div class="portfolio-actions"><a class="btn btn--primary" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
 </section>

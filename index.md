@@ -14,6 +14,7 @@ classes: wide
     <div class="portfolio-actions" aria-label="Primary links">
       <a class="btn btn--primary" href="/projects/">View selected work</a>
       <a class="btn btn--quiet" href="/cv/">CV</a>
+      <a class="btn btn--quiet" href="mailto:lima.pablohs@gmail.com">Email</a>
       <a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
     </div>
   </div>
@@ -96,6 +97,7 @@ classes: wide
 <section class="contact-section" aria-labelledby="contact-title">
   <p class="section-kicker">Contact</p>
   <h2 id="contact-title">Interested in analytics, BI, automation or data work?</h2>
-  <p>Find me on LinkedIn or explore the code and documentation behind the projects on GitHub.</p>
-  <div class="portfolio-actions"><a class="btn btn--primary" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
+  <p>The fastest way to reach me is by email. You can also connect with me on LinkedIn or explore the code and documentation behind my projects on GitHub.</p>
+  <p class="contact-email"><a href="mailto:lima.pablohs@gmail.com">lima.pablohs@gmail.com</a></p>
+  <div class="portfolio-actions"><a class="btn btn--primary" href="mailto:lima.pablohs@gmail.com">Email me</a><a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
 </section>

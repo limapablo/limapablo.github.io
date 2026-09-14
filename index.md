@@ -14,17 +14,29 @@ classes: wide
     <div class="portfolio-actions" aria-label="Primary links">
       <a class="btn btn--primary" href="/projects/">View selected work</a>
       <a class="btn btn--quiet" href="/cv/">CV</a>
-      <a class="btn btn--quiet" href="mailto:lima.pablohs@gmail.com">Email</a>
+      <a class="btn btn--quiet" href="/contact/">Contact</a>
       <a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
     </div>
   </div>
 
-  <aside class="hero-summary" aria-label="Professional summary">
-    <div class="summary-row"><span class="summary-label">Focus</span><span class="summary-value">Analytics · BI · Automation</span></div>
-    <div class="summary-row"><span class="summary-label">Core stack</span><span class="summary-value">Python · SQL · Power BI</span></div>
-    <div class="summary-row"><span class="summary-label">Approach</span><span class="summary-value">Business context → data → decision</span></div>
-    <div class="summary-row"><span class="summary-label">Research</span><span class="summary-value">Published applied data science work</span></div>
-  </aside>
+  <dl class="hero-summary" aria-label="Professional summary">
+    <div class="summary-row">
+      <dt class="summary-label">Focus</dt>
+      <dd class="summary-value">Analytics · BI · Automation</dd>
+    </div>
+    <div class="summary-row">
+      <dt class="summary-label">Core stack</dt>
+      <dd class="summary-value">Python · SQL · Power BI</dd>
+    </div>
+    <div class="summary-row">
+      <dt class="summary-label">Approach</dt>
+      <dd class="summary-value">Business context → data → decision</dd>
+    </div>
+    <div class="summary-row">
+      <dt class="summary-label">Research</dt>
+      <dd class="summary-value">Published applied data science work</dd>
+    </div>
+  </dl>
 </section>
 
 <section class="portfolio-section" aria-labelledby="work-title">
@@ -97,7 +109,6 @@ classes: wide
 <section class="contact-section" aria-labelledby="contact-title">
   <p class="section-kicker">Contact</p>
   <h2 id="contact-title">Interested in analytics, BI, automation or data work?</h2>
-  <p>The fastest way to reach me is by email. You can also connect with me on LinkedIn or explore the code and documentation behind my projects on GitHub.</p>
-  <p class="contact-email"><a href="mailto:lima.pablohs@gmail.com">lima.pablohs@gmail.com</a></p>
-  <div class="portfolio-actions"><a class="btn btn--primary" href="mailto:lima.pablohs@gmail.com">Email me</a><a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
+  <p>Use the contact form to send a message directly from the site. You can also connect with me on LinkedIn or explore my work on GitHub.</p>
+  <div class="portfolio-actions"><a class="btn btn--primary" href="/contact/">Open contact form</a><a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
 </section>

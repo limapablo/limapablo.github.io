@@ -12,6 +12,9 @@ search: false
 breadcrumbs: false
 markdown: kramdown
 
+atom_feed:
+  hide: true
+
 collections:
   pages:
     output: true
@@ -21,7 +24,6 @@ include:
   - _pages
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
 
@@ -31,6 +33,9 @@ author:
   bio: "Data & Analytics professional working across business intelligence, automation and applied data science."
   location: "Rio de Janeiro, Brazil"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lima.pablohs@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/limapablo/"
@@ -46,6 +51,9 @@ author:
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lima.pablohs@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/limapablo/"

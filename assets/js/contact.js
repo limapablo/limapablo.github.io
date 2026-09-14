@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const status = document.getElementById('contact-status');
   const submitButton = form.querySelector('button[type="submit"]');
+  const endpoint = 'https://formsubmit.co/ajax/8c21f9c632e90c9e4c50db25d71d83b1';
 
   const setStatus = (message, state = '') => {
     status.textContent = message;
@@ -25,19 +26,21 @@ document.addEventListener('DOMContentLoaded', () => {
     submitButton.textContent = 'Sending…';
     setStatus('Sending your message…');
 
+    const senderEmail = formData.get('email');
     const payload = {
       name: formData.get('name'),
-      email: formData.get('email'),
+      email: senderEmail,
       company: formData.get('company') || 'Not provided',
       subject: formData.get('subject'),
       message: formData.get('message'),
+      _replyto: senderEmail,
       _subject: `Portfolio contact — ${formData.get('subject')}`,
       _template: 'table',
       _url: 'https://limapablo.com/contact/'
     };
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/lima.pablohs@gmail.com', {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,14 +1,51 @@
 title: Pablo Lima
-description: Personal Academic Site
+description: Data & Analytics portfolio focused on Python, SQL, Power BI, machine learning, automation and applied analytics.
 email: lima.pablohs@gmail.com
-description: >-
-  Cientista de Dados em Formação
 baseurl: ""
 url: "https://limapablo.com"
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 github_username: limapablo
+linkedin_username: limapablo
+locale: "en-US"
+minimal_mistakes_skin: "dark"
+search: false
+breadcrumbs: false
 markdown: kramdown
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+include:
+  - _pages
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
+
+author:
+  name: "Pablo Lima"
+  avatar: "/images/profile.jpg"
+  bio: "Data & Analytics professional building practical solutions with Python, SQL, Power BI, automation and machine learning."
+  location: "Rio de Janeiro, Brazil"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/limapablo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/limapablo/"
+    - label: "Lattes"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "http://lattes.cnpq.br/3015923614657329"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      classes: wide

@@ -1,0 +1,160 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+:root {
+  --portfolio-border: rgba(255, 255, 255, 0.10);
+  --portfolio-muted: rgba(255, 255, 255, 0.68);
+  --portfolio-soft: rgba(255, 255, 255, 0.045);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  letter-spacing: -0.01em;
+}
+
+.masthead {
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.masthead__inner-wrap {
+  max-width: 1280px;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-weight: 600;
+}
+
+.page {
+  max-width: 1180px;
+}
+
+.page__inner-wrap {
+  max-width: 100%;
+}
+
+.page__title {
+  display: none;
+}
+
+.page__content {
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.page__content > h1:first-child {
+  font-size: clamp(3rem, 8vw, 6.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+  margin-top: 1.4rem;
+  margin-bottom: 0.45rem;
+  max-width: 950px;
+}
+
+.page__content > h1:first-child + h2 {
+  border-bottom: 0;
+  font-size: clamp(1.35rem, 2.7vw, 2rem);
+  color: var(--portfolio-muted);
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.page__content h2 {
+  margin-top: 4.5rem;
+  padding-bottom: 0.5rem;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.page__content h3 {
+  margin-top: 2.2rem;
+  font-size: 1.45rem;
+  letter-spacing: -0.025em;
+}
+
+.page__content p,
+.page__content li {
+  max-width: 850px;
+}
+
+.page__content hr {
+  margin: 4rem 0;
+  border: 0;
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.75rem 1.05rem;
+  font-weight: 700;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  border-bottom: 0;
+  margin-bottom: 2.5rem;
+}
+
+.feature__item {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.feature__item .archive__item {
+  height: 100%;
+  padding: 1.4rem;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 18px;
+  background: var(--portfolio-soft);
+}
+
+.feature__item .archive__item-title {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.feature__item .archive__item-excerpt {
+  color: var(--portfolio-muted);
+}
+
+.page__footer {
+  margin-top: 5rem;
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.page__footer-follow,
+.page__footer-copyright {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 900px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .page__content > h1:first-child {
+    font-size: clamp(3rem, 16vw, 5rem);
+  }
+}

@@ -80,6 +80,33 @@ a.heading-anchor,
   letter-spacing: -0.035em !important;
 }
 
+/* Summary spacing and scanability. */
+.hero-summary {
+  min-width: 0 !important;
+}
+
+.summary-row {
+  display: grid !important;
+  grid-template-columns: minmax(92px, 0.8fr) minmax(0, 1.8fr) !important;
+  column-gap: 1.35rem !important;
+  align-items: start !important;
+  padding: 0.92rem 0 !important;
+}
+
+.summary-label,
+.summary-value {
+  display: block !important;
+}
+
+.summary-label {
+  line-height: 1.45 !important;
+}
+
+.summary-value {
+  line-height: 1.5 !important;
+  overflow-wrap: anywhere !important;
+}
+
 /* Secondary-page editorial scale. */
 .content-intro,
 .cv-intro {
@@ -216,6 +243,23 @@ a.heading-anchor,
   font-weight: 650 !important;
 }
 
+/* Contact: explicit email without overemphasis. */
+.contact-email {
+  margin: 0.75rem 0 0 !important;
+  font-size: 0.92rem !important;
+}
+
+.contact-email a {
+  color: var(--final-text) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--final-border) !important;
+  padding-bottom: 0.08rem !important;
+}
+
+.contact-email a:hover {
+  border-bottom-color: rgba(255,255,255,.35) !important;
+}
+
 /* Mobile-first corrections. */
 @media (max-width: 900px) {
   #main {
@@ -251,6 +295,16 @@ a.heading-anchor,
 
   .portfolio-role {
     font-size: 1.12rem !important;
+  }
+
+  .summary-row {
+    grid-template-columns: 1fr !important;
+    row-gap: 0.3rem !important;
+    padding: 0.85rem 0 !important;
+  }
+
+  .summary-label {
+    margin-bottom: 0 !important;
   }
 
   .content-intro,

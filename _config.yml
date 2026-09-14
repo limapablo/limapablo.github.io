@@ -1,5 +1,5 @@
 title: Pablo Lima
-description: Data & Analytics portfolio focused on Python, SQL, Power BI, machine learning, automation and applied analytics.
+description: Data & Analytics portfolio focused on operational analytics, business intelligence, Python, SQL, Power BI, automation and applied data science.
 email: lima.pablohs@gmail.com
 baseurl: ""
 url: "https://limapablo.com"
@@ -27,19 +27,34 @@ plugins:
 
 author:
   name: "Pablo Lima"
-  avatar: "/images/profile.jpg"
-  bio: "Data & Analytics professional building practical solutions with Python, SQL, Power BI, automation and machine learning."
+  avatar: "/images/profile.png"
+  bio: "Data & Analytics professional working across business intelligence, automation and applied data science."
   location: "Rio de Janeiro, Brazil"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/limapablo"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/limapablo/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/limapablo"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0007-6456-6993"
     - label: "Lattes"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "http://lattes.cnpq.br/3015923614657329"
+      url: "https://lattes.cnpq.br/3015923614657329"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/limapablo/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/limapablo"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0007-6456-6993"
 
 defaults:
   - scope:

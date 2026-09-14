@@ -1,0 +1,292 @@
+/* Final presentation overrides loaded after the Minimal Mistakes theme. */
+
+:root {
+  --final-text: #e8ebee;
+  --final-muted: #a2a9b0;
+  --final-faint: #747b82;
+  --final-border: rgba(255, 255, 255, 0.10);
+}
+
+/* Theme-generated heading permalinks must never become visible content. */
+.header-link,
+a.header-link,
+.anchor-link,
+a.anchor-link,
+.heading-anchor,
+a.heading-anchor,
+.page__content h1 > a[aria-label="Permalink"],
+.page__content h2 > a[aria-label="Permalink"],
+.page__content h3 > a[aria-label="Permalink"],
+.page__content h1 > a[title="Permalink"],
+.page__content h2 > a[title="Permalink"],
+.page__content h3 > a[title="Permalink"] {
+  display: none !important;
+}
+
+/* The theme title is metadata/navigation context only. Each page has its own editorial heading. */
+.page__title {
+  display: none !important;
+}
+
+/* Keep content comfortably inside the viewport and avoid theme float behavior. */
+#main {
+  width: min(100% - 2.5rem, 1080px) !important;
+  max-width: 1080px !important;
+  margin-inline: auto !important;
+  padding-inline: 0 !important;
+}
+
+.page,
+.page__inner-wrap,
+.page__content {
+  width: 100% !important;
+  max-width: none !important;
+  margin-inline: 0 !important;
+}
+
+.page__content {
+  font-size: 0.97rem !important;
+  line-height: 1.68 !important;
+}
+
+/* Home: strong but restrained. */
+.portfolio-hero {
+  padding-top: clamp(3.5rem, 7vh, 5.25rem) !important;
+  padding-bottom: clamp(3.25rem, 6vh, 4.5rem) !important;
+}
+
+.portfolio-hero h1 {
+  font-size: clamp(3rem, 5.5vw, 4.7rem) !important;
+  line-height: 0.98 !important;
+  letter-spacing: -0.055em !important;
+}
+
+.portfolio-role {
+  max-width: 700px !important;
+  font-size: clamp(1.2rem, 2vw, 1.55rem) !important;
+  line-height: 1.32 !important;
+}
+
+.portfolio-lead {
+  max-width: 660px !important;
+  font-size: 0.98rem !important;
+  line-height: 1.72 !important;
+}
+
+.section-heading h2,
+.contact-section h2 {
+  font-size: clamp(1.55rem, 2.6vw, 2.15rem) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.035em !important;
+}
+
+/* Secondary-page editorial scale. */
+.content-intro,
+.cv-intro {
+  padding: clamp(3.5rem, 7vh, 5.25rem) 0 2.75rem !important;
+  max-width: 820px !important;
+}
+
+.content-intro h1,
+.cv-intro h1 {
+  margin: 0 !important;
+  max-width: 780px !important;
+  font-size: clamp(2.15rem, 4vw, 3.05rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.045em !important;
+  font-weight: 700 !important;
+}
+
+.content-lead,
+.cv-role {
+  max-width: 700px !important;
+  margin-top: 1rem !important;
+  color: var(--final-muted) !important;
+  font-size: 1.02rem !important;
+  line-height: 1.68 !important;
+}
+
+.cv-role {
+  color: var(--final-text) !important;
+  font-weight: 600 !important;
+}
+
+.cv-meta {
+  margin-top: 0.3rem !important;
+  color: var(--final-muted) !important;
+  font-size: 0.9rem !important;
+}
+
+.content-section,
+.cv-section {
+  max-width: 820px !important;
+  padding: 2.7rem 0 0 !important;
+  margin: 0 !important;
+  border-top: 1px solid var(--final-border) !important;
+}
+
+.content-section + .content-section,
+.cv-section + .cv-section {
+  margin-top: 2.7rem !important;
+}
+
+.content-section h2,
+.cv-section h2,
+.project-detail h2 {
+  margin: 0 0 1rem !important;
+  font-size: clamp(1.28rem, 2vw, 1.55rem) !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.025em !important;
+}
+
+.content-section h3,
+.cv-section h3,
+.project-detail h3 {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+}
+
+.content-section p,
+.cv-section p,
+.project-detail p {
+  max-width: 720px !important;
+  font-size: 0.94rem !important;
+  line-height: 1.7 !important;
+}
+
+/* CV: compact and scan-friendly. */
+.cv-entry,
+.cv-project-list > div,
+.cv-skill-grid > div,
+.cv-language-grid > div {
+  padding-block: 0.8rem !important;
+}
+
+.cv-entry__heading {
+  gap: 1rem !important;
+}
+
+.cv-entry__heading h3 {
+  margin: 0 !important;
+  font-size: 1rem !important;
+}
+
+.cv-entry__heading span,
+.cv-entry__org,
+.cv-skill-grid > div > span,
+.cv-language-grid > div > span {
+  font-size: 0.78rem !important;
+}
+
+.cv-skill-grid,
+.cv-language-grid {
+  gap: 0.75rem 1.5rem !important;
+}
+
+/* Project detail pages: reduce visual noise. */
+.project-detail {
+  gap: 1.75rem !important;
+  padding: 2.9rem 0 !important;
+}
+
+.project-detail__index,
+.project-detail__meta,
+.project-detail__stack,
+.section-kicker,
+.eyebrow {
+  font-size: 0.66rem !important;
+  letter-spacing: 0.12em !important;
+}
+
+.project-detail__points {
+  gap: 0.35rem !important;
+}
+
+.project-detail__points span,
+.project-card__tags span {
+  font-size: 0.66rem !important;
+}
+
+/* Buttons should read as controls, not banners. */
+.btn {
+  min-height: 38px !important;
+  padding: 0.52rem 0.78rem !important;
+  border-radius: 5px !important;
+  font-size: 0.79rem !important;
+  font-weight: 650 !important;
+}
+
+/* Mobile-first corrections. */
+@media (max-width: 900px) {
+  #main {
+    width: min(100% - 2rem, 760px) !important;
+  }
+
+  .portfolio-hero {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-summary {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #main {
+    width: calc(100% - 1.5rem) !important;
+  }
+
+  .masthead__inner-wrap {
+    padding-inline: 0.75rem !important;
+  }
+
+  .portfolio-hero {
+    padding-top: 2.6rem !important;
+    padding-bottom: 2.8rem !important;
+  }
+
+  .portfolio-hero h1 {
+    font-size: clamp(2.55rem, 13vw, 3.45rem) !important;
+  }
+
+  .portfolio-role {
+    font-size: 1.12rem !important;
+  }
+
+  .content-intro,
+  .cv-intro {
+    padding-top: 2.7rem !important;
+    padding-bottom: 2.2rem !important;
+  }
+
+  .content-intro h1,
+  .cv-intro h1 {
+    font-size: clamp(1.95rem, 8vw, 2.45rem) !important;
+  }
+
+  .portfolio-actions {
+    grid-template-columns: 1fr !important;
+  }
+
+  .btn {
+    width: 100% !important;
+  }
+
+  .cv-entry__heading {
+    grid-template-columns: 1fr !important;
+    gap: 0.15rem !important;
+  }
+
+  .cv-skill-grid,
+  .cv-language-grid,
+  .project-grid,
+  .capability-grid,
+  .background-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-detail {
+    grid-template-columns: 1fr !important;
+    gap: 0.6rem !important;
+  }
+}

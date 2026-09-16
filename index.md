@@ -5,6 +5,7 @@ author_profile: false
 classes: wide
 ---
 
+<!-- independent portfolio: no employer-specific information -->
 <section class="portfolio-hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <p class="eyebrow">Data Analytics · Business Intelligence · Automation</p>

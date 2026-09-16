@@ -8,12 +8,12 @@ classes: wide
 <section class="content-intro">
 <p class="section-kicker">About</p>
 <h1>Business context, analytical rigor and practical execution.</h1>
-<p class="content-lead">I am a Data & Analytics professional based in Rio de Janeiro, Brazil, working across business intelligence, process improvement, automation and IT operations.</p>
+<p class="content-lead">I am a Data & Analytics professional based in Rio de Janeiro, Brazil, building independent work across business intelligence, automation, analytics and applied data science.</p>
 </section>
 
 <section class="content-section">
 <h2>How I work</h2>
-<p>I hold a Bachelor's degree in Business Administration from UFRRJ and an MBA in Data Science & Analytics from USP/ESALQ. That combination shapes how I approach data: not as an isolated technical discipline, but as a way to understand operations, improve decisions, automate repetitive work and build reliable analytical solutions.</p>
+<p>I hold a Bachelor's degree in Business Administration from UFRRJ and an MBA in Data Science & Analytics from USP/ESALQ. That combination shapes how I approach data: not as an isolated technical discipline, but as a way to understand problems, improve decisions, automate repetitive work and build reliable analytical solutions.</p>
 <div class="principles-grid">
 <div><span>01</span><h3>Business context first</h3><p>A technically sophisticated solution is only useful when it answers the right question.</p></div>
 <div><span>02</span><h3>Reliability matters</h3><p>Good analytics depends on clear transformations, documented logic and data people can trust.</p></div>
@@ -26,7 +26,7 @@ classes: wide
 <div class="focus-list">
 <div><span>Data Analysis & BI</span><p>Operational analytics, KPI design, Power BI, DAX, data modeling and decision-ready reporting.</p></div>
 <div><span>Python & SQL</span><p>Data preparation, analytical modeling, automation and reusable transformation workflows.</p></div>
-<div><span>Automation & Data Quality</span><p>Power Automate, repeatable processes, validation and reliable reporting workflows.</p></div>
+<div><span>Automation & Data Solutions</span><p>Workflow automation, integrations, validation and practical tools designed around real business problems.</p></div>
 <div><span>Analytics Engineering</span><p>Relational modeling, dimensional thinking and transformation pipelines as a growing technical focus.</p></div>
 </div>
 </section>
@@ -44,10 +44,10 @@ classes: wide
 
 <section class="content-section content-section--last">
 <h2>Current direction</h2>
-<p>I am deepening my expertise in data modeling, analytics engineering and data engineering while continuing to strengthen the core skills I use today: Power BI, SQL, Python, automation and operational analytics. My goal is to build increasingly robust end-to-end data solutions without losing the connection to business outcomes.</p>
+<p>I am expanding my independent portfolio toward complete data solutions that combine SQL, Python, relational databases, business intelligence and automation. My goal is to build increasingly robust end-to-end analytical products without losing the connection to business outcomes.</p>
 <div class="portfolio-actions portfolio-actions--secondary">
 <a class="btn btn--primary" href="/projects/">Selected work</a>
-<a class="btn btn--quiet" href="/resume/">Resume</a>
-<a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a>
+<a class="btn btn--quiet" href="/contact/">Contact</a>
+<a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a>
 </div>
 </section>

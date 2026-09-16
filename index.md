@@ -7,10 +7,10 @@ classes: wide
 
 <section class="portfolio-hero" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <p class="eyebrow">Data & Analytics · Rio de Janeiro, Brazil</p>
+    <p class="eyebrow">Data Analyst · Business Intelligence · Automation · Rio de Janeiro, Brazil</p>
     <h1 id="hero-title">Pablo Lima</h1>
     <p class="portfolio-role">Turning operational data into reliable analytics, automation and better decisions.</p>
-    <p class="portfolio-lead">I work across analytics, business intelligence and applied data science, using Python, SQL and Power BI to move from raw data to practical, decision-ready solutions.</p>
+    <p class="portfolio-lead">I am a Data & Analytics professional working across business intelligence, process improvement, automation and IT operations. I use Power BI, SQL and Python to transform raw operational data into clear, decision-ready solutions.</p>
     <div class="portfolio-actions" aria-label="Primary links">
       <a class="btn btn--primary" href="/projects/">View selected work</a>
       <a class="btn btn--quiet" href="/resume/">Resume</a>
@@ -20,9 +20,9 @@ classes: wide
   </div>
 
   <dl class="hero-summary" aria-label="Professional summary">
-    <div class="summary-row"><dt class="summary-label">Focus</dt><dd class="summary-value">Analytics · BI · Automation</dd></div>
-    <div class="summary-row"><dt class="summary-label">Core stack</dt><dd class="summary-value">Python · SQL · Power BI</dd></div>
-    <div class="summary-row"><dt class="summary-label">Approach</dt><dd class="summary-value">Business context → data → decision</dd></div>
+    <div class="summary-row"><dt class="summary-label">Current role</dt><dd class="summary-value">IT Governance & Analytics · TIVIT</dd></div>
+    <div class="summary-row"><dt class="summary-label">Focus</dt><dd class="summary-value">Data Analysis · BI · Automation</dd></div>
+    <div class="summary-row"><dt class="summary-label">Core stack</dt><dd class="summary-value">Power BI · SQL · Python</dd></div>
     <div class="summary-row"><dt class="summary-label">Research</dt><dd class="summary-value">Published applied data science work</dd></div>
   </dl>
 </section>
@@ -73,11 +73,11 @@ classes: wide
 <section class="portfolio-section" aria-labelledby="capabilities-title">
   <div class="section-heading section-heading--compact"><div><p class="section-kicker">Capabilities</p><h2 id="capabilities-title">Technical execution with business context.</h2></div></div>
   <div class="capability-grid">
-    <div class="capability-item"><span class="capability-number">01</span><h3>Analytics & BI</h3><p>Power BI, DAX, KPI design, dimensional thinking and executive-ready reporting.</p></div>
-    <div class="capability-item"><span class="capability-number">02</span><h3>Python & SQL</h3><p>Data preparation, analytical modeling, automation and reusable transformation workflows.</p></div>
-    <div class="capability-item"><span class="capability-number">03</span><h3>Applied Data Science</h3><p>Regression, clustering, model evaluation and documented analytical assumptions.</p></div>
+    <div class="capability-item"><span class="capability-number">01</span><h3>Analytics & BI</h3><p>Power BI, DAX, KPI design, data modeling and decision-ready reporting.</p></div>
+    <div class="capability-item"><span class="capability-number">02</span><h3>Python & SQL</h3><p>Data preparation, analytical modeling, reusable transformations and reproducible analysis.</p></div>
+    <div class="capability-item"><span class="capability-number">03</span><h3>Automation & Data Quality</h3><p>Power Automate, repeatable workflows, validation and process improvement for reliable analytics.</p></div>
   </div>
-  <p class="stack-line">Python · SQL · PostgreSQL · Power BI · DAX · Pandas · Scikit-learn · XGBoost · n8n · Git · Linux</p>
+  <p class="stack-line">Python · SQL · PostgreSQL · Power BI · Power Query · DAX · Power Automate · Pandas · Git · Linux</p>
 </section>
 
 <section class="portfolio-section background-section" aria-labelledby="background-title">
@@ -96,7 +96,7 @@ classes: wide
 
 <section class="contact-section" aria-labelledby="contact-title">
   <p class="section-kicker">Contact</p>
-  <h2 id="contact-title">Interested in analytics, BI, automation or data work?</h2>
+  <h2 id="contact-title">Interested in Data Analytics, BI, automation or data roles?</h2>
   <p>Use the contact form to send a message directly from the site. You can also connect with me on LinkedIn or explore my work on GitHub.</p>
   <div class="portfolio-actions"><a class="btn btn--primary" href="/contact/">Open contact form</a><a class="btn btn--quiet" href="https://www.linkedin.com/in/limapablo/">LinkedIn ↗</a><a class="btn btn--quiet" href="https://github.com/limapablo">GitHub ↗</a></div>
 </section>

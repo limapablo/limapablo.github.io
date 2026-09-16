@@ -1,5 +1,5 @@
 title: Pablo Lima
-description: Data Analyst and Business Intelligence portfolio focused on Power BI, SQL, Python, automation, operational analytics and process improvement.
+description: Independent Data Analytics, Business Intelligence and Automation portfolio focused on Power BI, SQL, Python, data solutions and applied data science.
 baseurl: ""
 url: "https://limapablo.com"
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
@@ -29,7 +29,7 @@ plugins:
 author:
   name: "Pablo Lima"
   avatar: "/images/profile.png"
-  bio: "Data Analyst focused on business intelligence, automation, operational analytics and process improvement."
+  bio: "Independent Data & Analytics professional focused on business intelligence, automation and applied data solutions."
   location: "Rio de Janeiro, Brazil"
   links:
     - label: "Contact"
